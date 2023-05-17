@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.navegacao {
+  border: chartreuse 2px solid;
+}
+
+#titulo {
+  color: chocolate;
+}
+
+.texto {
+  color: green;
+}
