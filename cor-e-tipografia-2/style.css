@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Comic Neue", sans-serif;
+}
+
+section {
+  margin: 20px;
+  border: springgreen 2px solid;
+}
+.rgb {
+  border: solid 2px violet;
+}
+/*
+   RGB = RED GREEN BLUE
+*/
+.vermelha {
+  color: rgb(255, 0, 0);
+}
+
+.verde {
+  color: rgb(0, 255, 0);
+}
+
+.azul {
+  color: rgb(0, 0, 255);
+}
+
+.titulo {
+  color: rgb(46, 244, 24);
+  text-align: center;
+}
+/*  O valor de alfa varia de 0,0 
+(totalmente transparente)
+ a 1,0 (totalmente opaco)*/
+.titleRgba {
+  color: rgba(0, 0, 255, 0.2);
+}
+
+.titleHexadecimais {
+  color: #0000ff;
+}
+
+.titleFontSize {
+  font-size: 20px;
+}
+
+.normal {
+  font-style: normal;
+  color: rgba(0, 0, 255, 0.2);
+}
+
+.italic {
+  font-style: italic;
+  color: rebeccapurple;
+}
+
+.oblique {
+  font-style: oblique;
+  color: red;
+}
+
+.titleFontWeight {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tituloText {
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+  text-decoration: underline;
+}

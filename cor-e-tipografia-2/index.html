@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!--Importar fonte pelo o html-->
+    <title>Cor e Tipografia</title>
+  </head>
+  <body>
+    <main>
+        <h1 class="titulo">Cor e Tipografia</h1>
+      <!-----------RGB = RED GREEN BLUE--------------------------->
+      <section class="rgb">
+        <h3>RGB</h3> 
+        <p class="titleRgb">
+           Monitores são pretos e iluminados por vários pontinhos de luz.
+            Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor. A
+            cor RGB É formada por três pares de números, vermelho, verde e azul,
+            formados por três dígitos. Quanto mais alto o número mais clara é a cor.
+          </br>color: rgb(red, green, blue);
+        </p>
+        <p class="vermelha">Sou o primeiro valor - cor vermelha</p>
+        <p class="verde">Sou o segundo valor - cor verde</p>
+        <p class="azul">Sou o terceiro valor - cor azul</p>
+      </section>
+
+        <!-----------------------------RGBA----------------------->
+      <section class="rgba">
+        <h3>RGBA:</h3>
+          <p class="titleRgba">
+            RGBA: Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais
+            transparente ou mais opaca. Para isso, podemos usar um quarto número, que
+            representa o canal alpha da cor.
+          color: rgba(0, 0, 255, 0.5);
+          </p>
+          <p class="titleRgba">
+            color: rgba(0, 0, 255, 0.5); - vermelho, verde, azul, canal alpha da cor (transparente/opaco).
+            Quanto maior o número mais forte fica; Quanto menor, mais fraco fica;
+          </p>
+        </section>
+
+        <section class="hexadecimais">
+          <h3>HEXADECIMAIS:</h3>
+            <p class="titleHexadecimais">
+             Compostos por uma combinação de três conjuntos de pares formados a partir de
+              número e letras de A a F. Quanto mais alto o número mais clara é a cor.
+            
+              color: #ff0000;
+    
+            </p>
+            <p class="titleHexadecimais">
+                Cada par é responsável por uma cor, assim como o RGB, Vermelho, verde e azul. Ou
+                seja 
+                <p class="hexaVerm"> #ff0000 é o vermelho (O primeiro par ff)</p> 
+                <p class="hexaVerde">#00ff00 é o verde (O segundo par ff) </p> 
+                <p class="hexaAzul">#0000ff é o azul (O terceiro par ff)</p>
+            </p>
+          </section>
+
+              <!--------------------------TIPOGRAFIA-------------------------->
+
+              <section class="tipografia">
+                  <h3> Tipografia: Algumas propriedades oferecidas pelo CSS para trabalhar com as palavras</h2>
+                <!-- Primeiro vamos importar fonte do google fonts html e css e falar
+                que vamos aprender sobre o @font-face que é outra
+                forma de adicionar fonte, porém mais complexa-->
+                
+                <div class="fontFamily">
+                <h2>Font-Family e Google Fontes</h2>
+                <p class="tileFontFamily">A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas
+                    para exibir texto. O valor da propriedade font-family pode conter vários nomes de
+                    fontes, todos separados por vírgulas.</p>
+                    
+                <p class="roboto">Usando fontes seguras:
+                    Existem algumas fontes que são comuns em todos os computadores, tablets,
+                    smartphones e outros dispositivos compatíveis com os navegadores na web. Como
+                    eles foram instalados em todos os dispositivos, podemos usar essas fontes livremente
+                    em nossos sites, sabendo que não importa qual dispositivo esteja navegando em nosso
+                    site, a fonte irá aparecer corretamente.</p>
+                    <h2> Exemplos de fontes seguras:</h2>
+                    <ul>
+                       <li>Arial</li>
+                    <li>Courier New, Courier</li>
+                    <li>Garamond</li>
+                    <li>Georgia</li>
+                    <li>Lucida Sans Lucida Grande, Lucida</li>
+                    <li>Palatino Linotype</li>
+                    <li>Tahoma</li>
+                    <li>Times New Roman</li>
+                    <li>Verdana</li>
+                    </ul>
+                </div>
+                </section>
+                
+                <!------------Font Size (tamanho)------------>
+                <section class="fontSize">
+                    <p class="titleFontSize"> A propriedade font-size nos permite definir o tamanho do texto usando alguns valores. </p>
+                    
+                  </section>
+                
+                
+                <!------------------------Font-Style (estilo)---------------------->
+                
+                <section class="fontStyle">
+                  <h2>Font-Style</h2>
+                  <p class="normal"> Estilo da fonte - Normal </p>
+                  <p class="italic"> Estilo da fonte - Itálico "Seleciona uma fonte classificada como italic. 
+                    Se nenhuma versão em itálico da face estiver disponível, uma classificada como obliqueserá usada."</p>
+                  <p class="oblique">Estilo da fonte - Oblique "Seleciona uma fonte classificada como oblique. 
+                    Se nenhuma versão oblíqua da face estiver disponível, uma classificada como italicé usada"</p>
+                </section>
+                
+                <!--------------------------Font-Weight (Peso)---------------------->
+                
+                <section class="fontWeight">
+                  <h2>Font-Weight</h2>
+                    <p class="titleFontWeight"> Podemos definir um texto em negrito ou alterar o peso específico de um tipo de letra.
+                        Para esses casos, usaremos a propriedade font-weight. A propriedade font-weight
+                        aceita valores de palavra-chave ou numéricos. </p>
+                        <ul>
+                          <li>font-weight: normal; </li>
+                          <li>font-wight: lighter;</li>
+                          <li>font-weight: bold;</li>
+                          <li>font-weight: 400;</li>
+                          <li>100, 200, 300, 400, 500, 600, 700, 800 e 900</li>
+                
+                        </ul>
+                      </section>
+                
+                      <!------------------------Text Align (Alinhamento de texto)---------------------->
+                
+                      <section class="textAlign">
+                        <h2  class="tituloText">Text Align</h2>
+                        <p class="titleTextAling">
+                          Essa propriedade modifica o alinhamento de uma frase em relação a uma página.
+                          Ela aceita os valores left, right, center, e justify.</p>
+                          <p class="center"> Centralizado </p>
+                          <p class="left"> Esquerda</p>
+                          <p class="right">Direita </p>
+                          <p class="justify"> Justificado </p>
+                          <p class="justificandoUmParagrafo">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus neque
+                            rem cum facilis deleniti officiis laboriosam in cupiditate dolores
+                            nihil. Repellendus, autem corrupti neque aut eius officiis accusamus
+                            recusandae quidem! Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Natus rerum libero laborum repellat est laboriosam explicabo
+                            magnam consequuntur itaque officia ipsa tempore eveniet modi atque, cum
+                            perferendis a hic deleniti?
+                          </p>
+                        </section>
+                
+                        <!-----------------Text Transform (Transformação de texto)----------------->
+                
+                        <section class="textTransform">
+                          <h2>Text Transform</h2>
+                            <p class="titleTextTransform">
+                              A propriedade text-transform alterará o texto.A propriedade text-transform aceita
+                              cinco valores: none, capitalize, uppercase, lowercase, e inherit.
+                              Um caso de uso muito comum: se um texto precisa escrito em letras maiúsculas não é
+                              recomendando sempre escreve-lo no HTML assim, melhor usar o CSS para isso.</p>
+                              <p class="none">Nenhum, nenhuma transformação</p>
+                              <p class="capitalize">
+                                capitalize - capitalizar, ele pega a primeira letra de cada palavra e
+                                deixa maiúscula
+                              </p>
+                              <p class="uppercase">
+                                uppercase - Maiúscula, ele deixa todo o meu conteúdo em maiúsculo
+                              </p>
+                              <p class="lowercase">
+                                lowercase - Minúscula, ele deixa todo o conteúdo em minúsculo
+                              </p>
+                              <p class="inherit">inherit - herdar - ele herda do elemento pai</p>
+                            </section>
+
+
+    </main>
+  </body>
+</html>
