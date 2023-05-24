@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  border: solid 3px red;
+  background-color: cornflowerblue;
+  width: 100px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.inline {
+  width: 50px;
+  height: 100px;
+  background-color: yellow;
+}
+
+span {
+  display: block;
+}
