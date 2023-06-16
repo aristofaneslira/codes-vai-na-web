@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+img {
+  width: 50%;
+}
+
+.item {
+  border: 2px solid;
+}
+
+.container {
+  display: flex;
+  border: yellow solid 3px;
+  height: 50px;
+  justify-content: space-evenly;
+}
