@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+img {
+  width: 50%;
+}
+
+section {
+  margin: 10px;
+}
+
+.item {
+  border: 2px solid;
+  background-color: orange;
+  width: 50px;
+}
+
+.container {
+  display: flex; /* ativando o flexbox */
+  border: purple solid 5px;
+  justify-content: center;
+  /* justify-content: center; alinha no meio do eixo principal */
+}
+
+.container1 {
+  display: flex; /* ativando o flexbox */
+  border: purple solid 5px;
+  height: 50px;
+  justify-content: flex-end;
+  /* justify-content:flex-end; alinha no final do eixo principal */
+}
+
+.container2 {
+  display: flex; /* ativando o flexbox */
+  border: purple solid 5px;
+  height: 50px;
+  justify-content: flex-start;
+  /* justify-content: flex-start; padrão, alinha no inicio do eixo principal */
+}
+/* espaçamento dos itens */
+.container3 {
+  display: flex; /* ativando o flexbox */
+  border: purple solid 5px;
+  height: 50px;
+  justify-content: space-around;
+  /* justify-content: space-around; espaço ao redor dos elementos */
+}
+
+.container4 {
+  display: flex; /* ativando o flexbox */
+  border: purple solid 5px;
+  height: 50px;
+  justify-content: space-between;
+  /* justify-content:space-between; espaço entre os elementos */
+}
+
+.container5 {
+  display: flex; /* ativando o flexbox */
+  border: purple solid 5px;
+  height: 50px;
+  justify-content: space-evenly;
+  /* justify-content: space-evenly; espaço constante (um espaço igual distribuindo os elemntos 
+  iguakmente dentro do container */
+}
+.segundaSection {
+  height: 80px;
+  border: purple solid 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+  height: 90px;
+  border: brown 5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
