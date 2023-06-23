@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./Assets/back.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-style: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    height: 17vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+    font-size: 30px; 
+}
+
+.ulnav {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+
+main {
+    height: 720px;
+}
+
+section {
+    background-image: url(./Assets/bruxo.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    height: 100%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imgMeio {
+    margin-top: 10%;
+}
+
+footer {
+    color: white;
+}
