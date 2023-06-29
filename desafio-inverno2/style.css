@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #4b93bf;
+  margin: 0;
+  padding: 0;
+  color: #e4eef1;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.opcoes {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  padding: 20px;
+}
+
+.id1 {
+  color: #0f468c;
+  display: flex;
+  background-color: #e4eef1;
+  align-items: center;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.id1 p {
+  margin: 20px;
+}
+
+.id2 {
+  color: #e4eef1;
+  display: flex;
+  background-color: #4b93bf;
+  align-items: center;
+  padding: 50px;
+  font-size: 32px;
+  justify-content: space-between;
+}
+
+.id3 {
+  display: flex;
+  background-color: #e4eef1;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #4b93bf;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logosFooter {
+  display: flex;
+  justify-content: space-between;
+  width: 40vh;
+}
+
+.textFinal {
+  color: #e4eef1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoFundo {
+  display: flex;
+  justify-content: flex-end;
+}
