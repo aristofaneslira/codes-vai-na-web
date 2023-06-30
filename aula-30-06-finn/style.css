@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #25a6d9;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.rosto {
+  background-color: #ffe1c9;
+  height: 60vh;
+  width: 60%;
+  border-radius: 100%;
+}
+
+section {
+  background-color: white;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+button {
+  background-color: lawngreen;
+  border-radius: 10%;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.olho1 {
+  width: 10vh;
+  position: relative;
+  top: 10vh;
+  right: 10vh;
+}
+
+.olho2 {
+  width: 10vh;
+  position: relative;
+  top: 10vh;
+  left: 10vh;
+}
+
+form {
+  position: relative;
+  top: 30vh;
+  left: 30vh;
+}
+
+input {
+  display: block;
+  width: 350px;
+  height: 45px;
+}
