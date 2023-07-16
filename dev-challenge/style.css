@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid;
+  padding: 20px;
+}
+
+header ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+}
+
+header li {
+  display: flex;
+  height: 23px;
+  width: 24px;
+}
+
+.offer {
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 69px 28px;
+}
+
+a {
+  line-height: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.promocao {
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 0.2px #a5a1a1 solid;
+  border-bottom: 0.2px #a5a1a1 solid;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards figure {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  padding: 5px;
+  text-align: start;
+}
+
+.cards figure img {
+  height: 303px;
+  width: 303px;
+}
+
+span {
+  color: #5ca720;
+}
+
+footer {
+  width: 100%;
+  background: #f9f9f9;
+  border: 0.2px solid #a5a1a1;
+  height: 30%;
+}
+
+.footer1 {
+  padding: 40px 77px 50px;
+  justify-content: space-between;
+}
+
+input {
+  background: #ffffff;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+#submit {
+  background-color: #5ca720;
+  color: #d9d9d9;
+  border-radius: 0 5px 5px 0;
+  padding: 0;
+  margin: 0;
+}
+
+.contato {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+fieldset {
+  border: none;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  padding: 0 77px;
+}
+
+.logos,
+.pagamentos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  gap: 10px;
+}
+
+.logos img {
+  height: 33px;
+  width: 33px;
+}
+
+.pagamentos img {
+  height: 34px;
+}
+
+@media (max-width: 500px) {
+  .cards figure {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 5px;
+    text-align: start;
+  }
+
+  .cards figure img {
+    height: 164px;
+    width: 126px;
+  }
+
+  form {
+    margin-top: 2em;
+  }
+
+  input,
+  #submit {
+    width: 80%;
+    border-radius: 0;
+  }
+
+  .logos img {
+    height: 23px;
+    width: 23px;
+  }
+
+  .pagamentos img {
+    height: 18px;
+  }
+}
