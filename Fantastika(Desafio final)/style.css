@@ -26,3 +26,30 @@
     list-style: none;
     justify-content: space-evenly;
   }
+
+  main {
+    height: 100vh;
+}
+  .section_1 {
+    background-image: url("./assets/Web/fundo1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
+
+  .section_2 {
+    background-image: url("./assets/Web/fundo2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
+
+  .section_3 {
+    background-image: url("./assets/Web/fundo3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
