@@ -53,3 +53,14 @@
     background-position: center;
     height: 100%;
   }
+
+  .footer_section_1 {
+    background-color: #FFFFFF;
+    color: #FD6A9A;
+
+  }
+
+  .footer_section_2 {
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+  }
