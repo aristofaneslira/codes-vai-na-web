@@ -40,7 +40,7 @@ header ul {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;   
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -69,9 +69,9 @@ header ul {
     height: 100vh;
 }
 
-.section_2 div { 
+.section_2 div {
     padding: 200px;
-    width: 60%;   
+    width: 60%;
 }
 
 .section_2 h2 {
@@ -165,7 +165,7 @@ header ul {
     font-size: 40px;
 }
 
-.footer_section_1 figure{
+.footer_section_1 figure {
     display: flex;
     gap: 90px;
 }
@@ -180,7 +180,7 @@ header ul {
 .footer_section_2 ul {
     list-style: none;
     text-decoration: none;
-    
+
 }
 
 .nav_footer {
@@ -189,7 +189,7 @@ header ul {
     width: 100%;
     justify-content: flex-start;
     gap: 80px;
-    padding: 60px;  
+    padding: 60px;
     opacity: 1;
     margin: 20px;
     text-align: left;
@@ -205,4 +205,117 @@ header ul {
 .nav_footer ul li {
     font-size: 14px;
     padding: 10px;
+}
+
+@media (max-width:500px) {
+
+    header {
+        gap: 5px;
+    }
+
+    .insta {
+        display: none;
+    }
+
+    .youtube {
+        display: none;
+    }
+
+    .section_1 {
+        background-image: url("./assets/Mobile/fundo1.png");
+    }
+
+    .section_1 h2 {
+        font-size: 43px;
+        width: 99vw;   
+    }
+
+    .section_1 .pata {
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .section_1 div {
+        margin-bottom: 250px;
+    }
+
+    .section_2 {
+        background-image: url("./assets/Mobile/fundo2.png");
+    }
+
+    .section_2 h2 {
+        font-size: 40px;
+        width: 90vw;  
+    }
+
+    .section_2 p {
+        width: 90vw;
+        font-size: 30px;  
+    }
+
+    .section_2 button {
+        width: 40vw;
+        height: 10vh;
+        font-size: 15px;
+    }
+
+    .section_2 div {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        border: solid;
+    }
+
+    .section_3 {
+        background-image: url("./assets/Mobile/fundo3.png");
+    }
+
+    .section_3 h2 {
+        font-size: 40px;
+        width: 90vw;  
+    }
+
+    .section_3 p {
+        width: 90vw;
+        font-size: 30px;  
+    }
+
+    .section_3 button {
+        width: 40vw;
+        height: 10vh;
+        font-size: 15px;
+    }
+
+    .section_3 div {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        border: solid;
+    }
+
+    .footer_section_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_section_1 h2 {
+        font-size: 25px
+    }
+
+    .footer_section_1 img {
+        width: 30vw;
+        height: 4vh;
+        margin: 20px;
+    }
+
+    .footer_section_2 {
+        
+    }
+
+    .nav_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
