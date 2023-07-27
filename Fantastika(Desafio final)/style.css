@@ -150,6 +150,9 @@ header ul {
     color: #3A342F;
 }
 
+.footer_header {
+    display: none;
+}
 
 .footer_section_1 {
     display: flex;
@@ -293,6 +296,19 @@ header ul {
         border: solid;
     }
 
+    .footer_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .footer_header nav ul {
+        margin: 30px;
+        display: flex;
+        gap: 30px;
+    }
+
     .footer_section_1 {
         display: flex;
         flex-direction: column;
@@ -308,14 +324,11 @@ header ul {
         margin: 20px;
     }
 
-    .footer_section_2 {
-        
-    }
-
     .nav_footer {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
 }
