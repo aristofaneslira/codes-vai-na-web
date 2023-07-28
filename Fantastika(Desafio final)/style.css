@@ -272,56 +272,56 @@ header ul {
 
     .section_2 {
         background-image: url("./assets/Mobile/fundo2.png");
+        display: flex;
+        justify-content: flex-start;
     }
 
     .section_2 h2 {
-        font-size: 40px;
+        font-size: 35px;
         width: 90vw;  
     }
 
     .section_2 p {
         width: 90vw;
-        font-size: 30px;  
+        font-size: 20px;  
     }
 
     .section_2 button {
         width: 40vw;
         height: 10vh;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .section_2 div {
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        border: solid;
+        margin: 0;
+        padding: 0;
     }
 
     .section_3 {
         background-image: url("./assets/Mobile/fundo3.png");
+        display: flex;
+        justify-content: flex-start;
     }
 
     .section_3 h2 {
-        font-size: 40px;
+        font-size: 35px;
         width: 90vw;  
     }
 
     .section_3 p {
         width: 90vw;
-        font-size: 30px;  
+        font-size: 20px;  
     }
 
     .section_3 button {
         width: 40vw;
         height: 10vh;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .section_3 div {
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        border: solid;
+        margin: 0;
+        padding: 0;
     }
 
     .footer_header {
