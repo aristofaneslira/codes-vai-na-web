@@ -210,17 +210,44 @@ header ul {
     padding: 10px;
 }
 
+.footer_dev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-stretch: expanded;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    background: #FFFFFF;
+    color: #EB4A7B;
+}
+
+.footer_dev p:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 1.5rem;
+    margin: -2px 0.5rem 0;
+    background-color: #E5E5E5;
+ }
+ 
+ .footer_dev ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    list-style: none;
+ }
+
 @media (max-width:500px) {
 
     header {
         gap: 5px;
     }
 
-    .insta {
-        display: none;
-    }
-
-    .youtube {
+    .mobile {
         display: none;
     }
 
@@ -230,7 +257,7 @@ header ul {
 
     .section_1 h2 {
         font-size: 43px;
-        width: 99vw;   
+        width: 100vw;   
     }
 
     .section_1 .pata {
@@ -239,7 +266,8 @@ header ul {
     }
 
     .section_1 div {
-        margin-bottom: 250px;
+        padding: 2vw;
+        margin: 5vw;
     }
 
     .section_2 {
