@@ -1,0 +1,10 @@
+header{
+    background-color: gold;
+    height: 20vh;
+}
+
+.lista {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}

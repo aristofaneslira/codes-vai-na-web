@@ -1,9 +1,18 @@
 import React from "react";
+import "./HeaderStyle.css"
 
 const Header = () => {
     return (
         <>
-            <p>eu sou a header</p>
+            <header>
+                <nav>
+                    <ul className="lista">
+                        <li>Sobre</li>
+                        <li>contato</li>
+                        <li>Endereço</li>
+                    </ul>
+                </nav>
+            </header>
         </>
     )
 }
