@@ -1,8 +1,10 @@
 
 import React, { useState } from "react";
-import styled from "styled-components";
 import Button from "./components/Button";
 import { GlobalStyles } from "./components/GlobalStyles";
+
+import * as B from "./components/ButtonStyles";
+import * as  T from "./components/TelaStyle";
 
 export default function App() {
   const [num1, setNum1] = useState("");
@@ -94,24 +96,24 @@ export default function App() {
         <GlobalStyles />
 
         <div>
-          <div>
-            <div>
+          <T.Tela>
+            <T.Operacao>
               <p>
                 {num1 !== ""
                   ? `${num1} ${operacao} ${num2}`
                   : "0"}
               </p>
-            </div>
+            </T.Operacao>
 
-            <div>
+            <T.Igual>
               <span>
                 =
               </span>
               <p>{resultado ? resultado : "0"}</p>
-            </div>
-          </div>
+            </T.Igual>
+          </T.Tela>
 
-          <div>
+          <B.ButtonContainer>
             <Button
               event={handleClickLimparCE}
             >
@@ -125,9 +127,9 @@ export default function App() {
             <Button event={() => handleClickOperador("/")}>
               {"/"}
             </Button>
-          </div>
+          </B.ButtonContainer>
 
-          <div>
+          <B.ButtonContainer>
             <Button event={() => handleNumberClick("7")}>
               {"7"}
             </Button>
@@ -140,9 +142,9 @@ export default function App() {
             <Button event={() => handleClickOperador("*")}>
             {"*"}
             </Button>
-          </div>
+          </B.ButtonContainer>
 
-          <div>
+          <B.ButtonContainer>
             <Button event={() => handleNumberClick("4")}>
             {"4"}
             </Button>
@@ -155,9 +157,9 @@ export default function App() {
             <Button event={() => handleClickOperador("-")}>
             {"-"}
             </Button>
-          </div>
+          </B.ButtonContainer>
 
-          <div>
+          <B.ButtonContainer>
             <Button event={() => handleNumberClick("1")}>
             {"1"}
             </Button>
@@ -170,26 +172,23 @@ export default function App() {
             <Button event={() => handleClickOperador("+")}>
             {"+"}
             </Button>
-          </div>
+          </B.ButtonContainer>
 
-          <div>
-            <Button event={() => handleNumberClick("0")}>
-            {"0"}
-            </Button>
+          <B.ButtonContainer>
             <Button
-
-              fontSize="36px"
               event={() => handleNumberClick(".")}
             >
               {"."}
             </Button>
+            <Button event={() => handleNumberClick("0")}>
+            {"0"}
+            </Button>
             <Button
-              gridColumn="3 / 5"
               event={handleClickIgual}
             >
              {"="}
             </Button>
-          </div>
+          </B.ButtonContainer>
         </div>
       </div>
     </main>

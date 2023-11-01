@@ -2,14 +2,14 @@ import { createGlobalStyle } from "styled-components";
 
 //mudar esse stylo
 export const GlobalStyles = createGlobalStyle`
-  /* body { 
+ body { 
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
+  } 
 
   * {
     margin: 0;
@@ -23,8 +23,4 @@ export const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
-  /* button,
-  input {
-    display: block;
-  } */
 `;
