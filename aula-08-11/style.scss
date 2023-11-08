@@ -1,0 +1,37 @@
+$verde-claro: rgb(116, 240, 174);
+$verde-escuro: rgb(24, 79, 50);
+$verde-limao: rgba(7, 250, 120, 0.95);
+
+@mixin alinhamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 40vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: palevioletred;
+}
+
+.primeira {
+    background-color: $verde-claro;
+    @include alinhamento();
+}
+
+.segunda {
+    background-color: $verde-escuro;
+    @include alinhamento();
+}
+
+.terceira {
+    background-color: $verde-limao;
+    @include alinhamento();
+}

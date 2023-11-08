@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: palevioletred;
+}
+
+.primeira {
+  background-color: rgb(116, 240, 174);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 40vh;
+}
+
+.segunda {
+  background-color: rgb(24, 79, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 40vh;
+}
+
+.terceira {
+  background-color: rgba(7, 250, 120, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 40vh;
+}/*# sourceMappingURL=style.css.map */
