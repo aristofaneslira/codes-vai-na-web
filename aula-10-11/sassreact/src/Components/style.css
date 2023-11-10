@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #3244a8;
+  color: white;
+  height: 20vw;
+}
+header img {
+  width: 10vw;
+  border-radius: 100%;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  justify-content: space-around;
+  font-size: 30px;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

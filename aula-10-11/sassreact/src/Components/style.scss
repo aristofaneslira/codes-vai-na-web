@@ -1,0 +1,35 @@
+$cor-de-fundo-header: #3244a8;
+
+@mixin alinhamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    @include alinhamento();
+    justify-content: space-between;
+    background-color: $cor-de-fundo-header;
+    color: white;
+    height: 20vw;
+
+    img{
+        width: 10vw;
+        border-radius: 100%;
+    }
+
+    ul{
+        @include alinhamento();
+        width: 30vw;
+        justify-content: space-around;
+        font-size: 30px;
+        list-style: none;
+    }
+}
+
